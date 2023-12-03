@@ -8,8 +8,6 @@ import DarkModeOutlinedIcon from '@mui/icons-material/DarkMode'
 import SettingsBrightnessIcon from '@mui/icons-material/SettingsBrightness'
 import Box from '@mui/material/Box'
 
-
-
 function ModeSelect() {
   const { mode, setMode } = useColorScheme()
   const handleChange = (event) => {
