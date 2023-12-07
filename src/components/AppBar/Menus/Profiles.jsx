@@ -33,7 +33,7 @@ function Profiles() {
           aria-haspopup="true"
           aria-expanded={open ? 'true' : undefined}
         >
-          <Avatar sx={{ width: 32, height: 32 }}
+          <Avatar sx={{ width: 40, height: 40 }}
             alt='nguyenvudev'
             src='https://scontent.fhan3-2.fna.fbcdn.net/v/t39.30808-1/337244518_528305662809301_2368016245307349241_n.jpg?stp=dst-jpg_p160x160&_nc_cat=107&ccb=1-7&_nc_sid=5740b7&_nc_eui2=AeEYiNsndIPD6iZSQRTeOaKLjShHi2Xv2s2NKEeLZe_azQj-WpVT6GwIPRkT_WSYFKzaP6scRdMLctK9zwFzBPFe&_nc_ohc=p-hClNcuyPAAX_P-Efq&_nc_ht=scontent.fhan3-2.fna&oh=00_AfA8soBY_u4gui7An8zlJRG4rS-X1CbnY0kWO5wV-B00nQ&oe=6572F0B4'
           />
@@ -76,10 +76,10 @@ function Profiles() {
         anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}
       >
         <MenuItem>
-          <Avatar sx={{ width: '28px', height: '28px', mr: '2'}} /> Profile
+          <Avatar sx={{ width: '28px', height: '30px', mr: '2' }} /> Profile
         </MenuItem>
         <MenuItem>
-          <Avatar sx={{ width: '28px', height: '28px', mr: '2'}} /> My account
+          <Avatar sx={{ width: '28px', height: '30px', mr: '2' }} /> My account
         </MenuItem>
         <Divider />
         <MenuItem>
