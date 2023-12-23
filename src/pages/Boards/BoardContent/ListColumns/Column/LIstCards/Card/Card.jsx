@@ -35,7 +35,11 @@ function Card({ card }) {
       sx={{
         cursor: 'pionter',
         boxShadow: '0 1px 1px rgba(0, 0, 0, 0.2)',
-        overflow: 'unset'
+        overflow: 'unset',
+        display: card?.FE_PlaceholderCard? 'none' : 'block'
+        // 2 cách dưới bổ sung cho TH column rỗng video 37.2
+        // overflow: card?.FE_PlaceholderCard ? 'hidden' : 'unset',
+        // height: card?.FE_PlaceholderCard ? '0px' : 'unset'
       }}
     >
       {card?.cover &&
